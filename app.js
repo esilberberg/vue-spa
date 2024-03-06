@@ -6,11 +6,10 @@ import Contact from './components/contact.js';
 
 const router = VueRouter.createRouter({
     history: VueRouter.createWebHistory(),
-    base: '/vue-spa/',
     routes: [
-        { path: '/', component: Home },
-        { path: '/about', component: About },
-        { path: '/contact', component: Contact },
+        { path: '/vue-spa/', component: Home },
+        { path: '/vue-spa/about', component: About },
+        { path: '/vue-spa/contact', component: Contact },
     ],
 });
 
