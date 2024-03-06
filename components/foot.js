@@ -13,9 +13,9 @@ const Foot = {
   data() {
       return {
           footLinks: [
-            { text: 'Home', to: '/' },
-            { text: 'About', to: '/about' },
-            { text: 'Contact', to: '/contact' },
+            { text: 'Home', to: '/vue-spa/' },
+            { text: 'About', to: '/vue-spa/about' },
+            { text: 'Contact', to: '/vue-spa/contact' },
           ]
       };
   }

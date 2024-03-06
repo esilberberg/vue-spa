@@ -16,8 +16,8 @@ const Navbar = {
     data() {
         return {
             navLinks: [
-                { text: 'About', to: '/about' },
-                { text: 'Contact', to: '/contact' },
+                { text: 'About', to: '/vue-spa/about' },
+                { text: 'Contact', to: '/vue-spa/contact' },
             ]
         };
     }
